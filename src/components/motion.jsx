@@ -8,7 +8,7 @@ function Motion({ children }) {
       transition={{
           duration: .5
       }}
-      viewport={{ once: false }}
+      viewport={{ once: true }}
       className="wrap-motion"
     >
       {children}

@@ -7,6 +7,12 @@
     box-shadow: var(--shadow);
 }
 
+@media screen and (max-width: 1200px) {
+    .project-card {
+        width: 100%;
+    }
+}
+
 .image {
     display: block;
     width: 100%;
@@ -20,6 +26,7 @@
     padding: .25rem;
     border: 1px solid black;
     font-weight: 600;
+    height: fit-content;
 }
 .git-button:hover {
     background-color: white;

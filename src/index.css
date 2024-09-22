@@ -17,6 +17,7 @@
 
 body {
   font-family: "Aldrich", sans-serif;
+  font-size: 15px;
   font-weight: 400;
   font-style: normal;
   background-color: var(--eggcolor);
@@ -77,12 +78,26 @@ html::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   width: 60%;
+  height: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    justify-content: initial;
+  }
 }
 
 .card-detail {
   padding: 1rem 1rem;
   width: 100%;
   display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-detail {
+    flex-direction: column;
+  }
 }
 
 .vertical {
@@ -97,17 +112,18 @@ html::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-right: var(--border-red);
 }
-.vertical > .sub-card-detail {
-  border: 0;
-}
-.card-detail > .sub-card-detail:nth-last-child(1) {
-  border: 0;
-}
+
 .left {
   flex-basis: 30%;
-  /* text-align: right; */
+  border-right: var(--border-red);
+}
+
+@media screen and (max-width: 1200px) {
+  .left {
+    border-right: 0;
+    border-bottom: var(--border-red);
+  }
 }
 
 .right {
@@ -123,10 +139,19 @@ html::-webkit-scrollbar {
 .grids-projects {
   padding: .5rem;
   display: flex;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: .5rem;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .grids-projects {
+    flex-direction: column;   
+  }
 }
 
 .lists li {
@@ -158,6 +183,7 @@ html::-webkit-scrollbar {
 a {
   text-decoration: none;
   color: var(--darkred);
+  text-underline-offset: 1rem;
 }
 
 a:hover {

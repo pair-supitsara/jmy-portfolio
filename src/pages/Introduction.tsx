@@ -1,6 +1,7 @@
 import Motion from '../components/motion'
 
 function Introduction() {
+  
   return (
     <Motion> 
       <div className="full-page">

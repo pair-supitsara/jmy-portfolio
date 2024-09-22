@@ -32,25 +32,23 @@ function Portfolio() {
 
     return (
         <Motion>
-            <div className="full-page">
-                <div className="card">   
+            <div className="full-page"> 
+                <div className="card">  
                     <h1 className="header">Portfolio</h1>
                     <div className='card-detail horizontal'>
-                        <div className='sub-card-detail'>
-                            <div className='grids-projects'>
-                            {   projects.map(({ name, description, technologies, image, alt, github }) => (
-                                    <Project
-                                        key={name}
-                                        name={name} 
-                                        description={description}
-                                        technologies={technologies}
-                                        image="https://i.pinimg.com/originals/6a/28/87/6a2887f91a7ee71850635a82560ca7e8.jpg"
-                                        alt={alt}
-                                        github={github}
-                                    />
-                                )
-                            )}
-                            </div>
+                        <div className='grids-projects'>
+                        {   projects.map(({ name, description, technologies, image, alt, github }) => (
+                                <Project
+                                    key={name}
+                                    name={name} 
+                                    description={description}
+                                    technologies={technologies}
+                                    image="https://i.pinimg.com/originals/6a/28/87/6a2887f91a7ee71850635a82560ca7e8.jpg"
+                                    alt={alt}
+                                    github={github}
+                                />
+                            )
+                        )}
                         </div>
                     </div>
                 </div>
