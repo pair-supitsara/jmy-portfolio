@@ -5,6 +5,11 @@
     padding: .5rem;
     width: 30%;
     box-shadow: var(--shadow);
+    transition: .5s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 1200px) {

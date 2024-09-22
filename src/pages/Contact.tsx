@@ -13,6 +13,7 @@ function Contact() {
                             <span>Email : pair.supitsara@gmail.com</span>
                             <span>Github : <a href="https://github.com/pair-supitsara">github.com/pair-supitsara</a></span>
                             <span>Medium : <a href="https://medium.com/@supitsara.d">medium.com/@supitsara.d</a></span>
+                            <span>Resume : <a href="/CV_Supitsara_Deetoh.pdf">CV_Supitsara_Deetoh.pdf</a></span>
                         </div>
                     </div>
                 </div>

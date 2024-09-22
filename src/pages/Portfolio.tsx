@@ -9,7 +9,7 @@ function Portfolio() {
                             'allowing users to browse products, add items to the cart',
                             'allowing  admin functionality for managing products and users'],
             technologies: 'React, HTML, CSS, JavaScript',
-            image: '', 
+            image: '/e-commerce.gif', 
             alt: 'ShoppingCart', 
             github: 'https://github.com/pair-supitsara/ShoppingCart'
         },
@@ -17,14 +17,14 @@ function Portfolio() {
             name: 'Authentication and Authorization System',
             description: ['Developed an authentication and authorization system for an API, ensuring secure user login and data protection'],
             technologies: 'Node, Express, MySQL, JWT',
-            image: '', 
+            image: '/authen&authorization.gif', 
             alt: 'API', 
             github: 'https://github.com/pair-supitsara/API'
         },{ 
             name: 'D3-racingbarchart',
             description: ['study case using d3.js drawing racing bar chart'],
             technologies: 'Node, Express, React, HTML, CSS, JavaScript, D3.js',
-            image: '', 
+            image: '/population-growth.gif', 
             alt: 'API', 
             github: 'https://github.com/pair-supitsara/D3-racingbarchart'
         }
@@ -43,7 +43,7 @@ function Portfolio() {
                                     name={name} 
                                     description={description}
                                     technologies={technologies}
-                                    image="https://i.pinimg.com/originals/6a/28/87/6a2887f91a7ee71850635a82560ca7e8.jpg"
+                                    image={ image || "https://i.pinimg.com/originals/6a/28/87/6a2887f91a7ee71850635a82560ca7e8.jpg"}
                                     alt={alt}
                                     github={github}
                                 />
