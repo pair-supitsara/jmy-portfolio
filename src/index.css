@@ -13,6 +13,7 @@
   --yellow: rgb(255, 192, 35);
   --shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
   --border-red: 2px solid var(--red);
+  --white: white;
 }
 
 body {

@@ -21,16 +21,20 @@
     display: block;
     padding: .5rem 1.5rem;
     text-decoration: none;
-    color: var(--black);
+    background-color: var(--red);
+    border-radius: 1rem;
+    color: var(--white);
     margin: .5rem;
+    font-weight: 600;
+    transition: .5s;
 }
 .nav-desktop a:hover 
 , .nav-desktop a.active
 , .hamburger {
     background-color: var(--yellow);
-    color: var(--black);
-    border-radius: 1rem;
+    color: var(--white);
     border: 0;
+    font-size: 1.1rem;
 }
 
 .dropdown {
@@ -38,10 +42,11 @@
     flex-direction: column;
     list-style-type: none;
     text-align: end;
+    background-color: var(--yellow);
 }
 .dropdown li {
     padding: 1rem 1rem;
-    border-bottom: 2px solid var(--yellow);
+    border-bottom: 2px solid var(--white);
 }
 
 
