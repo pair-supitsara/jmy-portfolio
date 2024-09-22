@@ -1,0 +1,41 @@
+.project-card {
+    display: block;
+    background-color: var(--yellow);
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 30%;
+    box-shadow: var(--shadow);
+}
+
+.image {
+    display: block;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.git-button {
+    display: block;
+    background-color: var(--red);
+    border-radius: .25rem;
+    padding: .25rem;
+    border: 1px solid black;
+    font-weight: 600;
+}
+.git-button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 1rem;
+}
+
+.bottom {
+    display: block;
+    height: 10rem;
+    overflow-y: auto;
+    font-size: .8rem;
+}
